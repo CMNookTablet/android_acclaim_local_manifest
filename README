@@ -1,0 +1,18 @@
+CM10.1
+
+How to
+1. Run command  
+repo init -u git://github.com/CyanogenMod/android.git -b cm-10.1
+2. Fetch local_manifest.xml from this repo and run
+cp local_manifest.xml .repo/local_manifest.xml
+3. repo sync
+4. Apply patches from here
+http://review.cyanogenmod.org/#/c/28295/
+http://review.cyanogenmod.org/#/c/28296/
+http://review.cyanogenmod.org/#/c/28299/
+http://review.cyanogenmod.org/#/c/28300/
+
+5. Run this
+. build/envsetup.sh 
+lunch cm_acclaim-userdebug
+make bacon
