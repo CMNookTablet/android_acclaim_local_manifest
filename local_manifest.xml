@@ -5,8 +5,8 @@
  <!-- replacement -->
  <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release">
  <annotation name="vendor" value="ti" />
-                     
-
+   </project>
+   
  <!-- local projects -->
  <project path="device/bn/acclaim" name="CMNookTablet/android_device_bn_acclaim" remote="private" revision="jb2"/>
  <project path="kernel/bn/acclaim" name="Kuzma30/kernel3NookTablet" remote="private" revision="jb2"/>
