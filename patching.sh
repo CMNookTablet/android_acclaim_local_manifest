@@ -7,5 +7,3 @@ git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_av refs/c
 cd ..
 cd base
 git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_base refs/changes/00/28300/1 && git cherry-pick FETCH_HEAD
-cd ../../packages/inputmethods/LatinIME
-git apply ../../../keyb.diff
